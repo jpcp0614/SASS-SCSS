@@ -1,0 +1,16 @@
+body {
+  background: #ccc;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  background: lightblue;
+}
+.container h1 {
+  background: black;
+  color: gold;
+  text-align: center;
+}
+
+/*# sourceMappingURL=styles.css.map */
