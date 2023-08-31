@@ -17,4 +17,28 @@ ol > li {
   color: blue;
 }
 
+a {
+  border: 1px solid green;
+  color: green;
+  display: block;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.4s;
+  width: 150px;
+}
+a:hover {
+  background: green;
+  color: white;
+}
+
+.container {
+  background: #ccc;
+  padding: 20px;
+  margin: 20px;
+}
+.container-content {
+  color: red;
+}
+
 /*# sourceMappingURL=styles.css.map */
