@@ -1,3 +1,6 @@
+@charset "UTF-8";
+/* Este comentário vai aparecer no CSS */
+/*! Este comentário tb estará incluso */
 .container {
   background: #ddd;
   padding: 20px;
