@@ -1,4 +1,6 @@
+// escopo global
 $text-color: #0c65bf
+$bg-color: #113311
 
 h1
   color: $text-color
@@ -8,3 +10,13 @@ p
 
 a
   color: $text-color
+
+div
+  p
+    $font-color: white // escopo local
+    $font2-color: red
+    background: $bg-color
+    color: $font-color
+
+    span
+      color: $font2-color
