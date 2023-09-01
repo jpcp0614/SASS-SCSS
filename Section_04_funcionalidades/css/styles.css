@@ -10,4 +10,32 @@ body {
   margin: 20px;
 }
 
+.p-esp {
+  background: #123;
+  border: 1px solid gold;
+  color: gold;
+  padding: 10px;
+}
+.p-esp:hover {
+  border-color: blue;
+  color: white;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+h2 {
+  background: #123;
+  border: 1px solid gold;
+  color: gold;
+  padding: 10px;
+  border-color: green;
+  color: green;
+}
+h2:hover {
+  border-color: blue;
+  color: white;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
 /*# sourceMappingURL=styles.css.map */
