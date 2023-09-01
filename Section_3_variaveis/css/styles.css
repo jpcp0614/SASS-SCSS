@@ -6,6 +6,7 @@ h1 {
 p {
   color: #0c65bf;
   border: 2px solid red;
+  font-size: 3rem;
 }
 
 a {
@@ -24,6 +25,7 @@ div p span {
 
 h2 {
   border: 2px solid red;
+  color: green;
 }
 
 /*# sourceMappingURL=styles.css.map */
