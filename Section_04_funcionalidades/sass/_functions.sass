@@ -1,5 +1,4 @@
 @function text-color($size)
-
   $color: #000
 
   @if $size > 15
@@ -8,3 +7,15 @@
     $color: blue
   
   @return $color
+
+@function custom-border($variation: 1)
+  $border: none
+
+  @if $variation == 1
+    $border: 1px solid red
+  @else if $variation == 2
+    $border: 2px solid green
+  @else
+    $border: 3px dotted blue
+
+  @return $border

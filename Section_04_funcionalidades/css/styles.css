@@ -84,7 +84,7 @@ h2:hover {
 .container-maior {
   padding: 20px;
   margin: 20px;
-  border: 2px solid green;
+  border: 3px dotted blue;
   width: 600px;
 }
 
