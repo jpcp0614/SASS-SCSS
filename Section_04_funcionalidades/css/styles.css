@@ -42,18 +42,24 @@ h2:hover {
   padding: 10px;
   margin: 10px;
   border: 1px solid red;
+  background-color: #fff;
+  color: #000;
 }
 
 .esp-media {
   padding: 15px;
   margin: 15px;
   border: 2px dotted red;
+  background-color: #fff;
+  color: blue;
 }
 
 .esp-maior {
   padding: 20px;
   margin: 20px;
   border: 1px solid blue;
+  background-color: #bbb;
+  color: #000;
 }
 
 .esp-maior-ainda {
