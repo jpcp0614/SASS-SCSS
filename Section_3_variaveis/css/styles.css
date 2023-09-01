@@ -1,9 +1,11 @@
 h1 {
   color: #0c65bf;
+  border: 2px solid red;
 }
 
 p {
   color: #0c65bf;
+  border: 2px solid red;
 }
 
 a {
@@ -13,9 +15,15 @@ a {
 div p {
   background: #113311;
   color: white;
+  border: 3px dotted green;
 }
 div p span {
   color: red;
+  border: 3px dotted green;
+}
+
+h2 {
+  border: 2px solid red;
 }
 
 /*# sourceMappingURL=styles.css.map */

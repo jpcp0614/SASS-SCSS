@@ -1,12 +1,14 @@
 // escopo global
 $text-color: #0c65bf
 $bg-color: #113311
+$border: 2px solid red
 
 h1
   color: $text-color
-
+  border: $border
 p
   color: $text-color
+  border: $border
 
 a
   color: $text-color
@@ -15,8 +17,14 @@ div
   p
     $font-color: white // escopo local
     $font2-color: red
+    $border: 3px dotted green
     background: $bg-color
     color: $font-color
+    border: $border
 
     span
       color: $font2-color
+      border: $border
+
+h2
+  border: $border
