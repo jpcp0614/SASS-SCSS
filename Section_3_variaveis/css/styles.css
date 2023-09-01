@@ -7,6 +7,8 @@ p {
   color: #0c65bf;
   border: 2px solid red;
   font-size: 3rem;
+  margin: 30px;
+  padding: 16px;
 }
 
 a {
