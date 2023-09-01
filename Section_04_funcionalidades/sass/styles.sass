@@ -1,17 +1,7 @@
 @import 'variables'
 @import 'button'
 @import 'mixins'
-
-// @mixin special
-//   background: #123
-//   border: 1px solid gold
-//   color: gold
-//   padding: 10px
-//   &:hover
-//     border-color: blue
-//     color: white
-//     cursor: pointer
-//     transition: .4s
+@import 'plugins'
 
 body
   margin: 20px
@@ -27,6 +17,7 @@ h2
   @include espacamento(10px, 10px)
   @include custom-border(solid, red)
   @include colors
+  @extend %font-pattern
 
 .esp-media
   @include espacamento(15px, 15px)

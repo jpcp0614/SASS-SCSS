@@ -6,6 +6,12 @@
   padding: 12px 10px;
 }
 
+.esp-menor {
+  fontsize: 2rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+}
+
 body {
   margin: 20px;
 }
