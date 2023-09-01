@@ -74,4 +74,18 @@ h2:hover {
   border: 2px solid gold;
 }
 
+.container-menor {
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid blue;
+  width: 400px;
+}
+
+.container-maior {
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid green;
+  width: 600px;
+}
+
 /*# sourceMappingURL=styles.css.map */
