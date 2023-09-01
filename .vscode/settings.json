@@ -26,5 +26,6 @@
 	"prettier.tabWidth": 2,
 	"prettier.semi": true,
 	"prettier.jsxSingleQuote": false,
-	"cSpell.words": ["Km", "KM"]
+	"cSpell.words": ["espacamento", "Km", "KM"],
+	"cSpell.enableFiletypes": ["sass"]
 }
