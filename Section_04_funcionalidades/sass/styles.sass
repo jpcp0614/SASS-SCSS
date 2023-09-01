@@ -2,6 +2,7 @@
 @import 'button'
 @import 'mixins'
 @import 'plugins'
+@import 'functions'
 
 body
   margin: 20px
@@ -46,3 +47,11 @@ $medida: 4
   @include espacamento(20px, 20px)
   @include custom-border(solid, green, 2px)
   width: 100px * ($medida + 2)
+
+.fonte-pequena
+  font-size: 10px
+  color: text-color(10)
+
+.fonte-grande
+  font-size: 25px
+  color: text-color(25)
