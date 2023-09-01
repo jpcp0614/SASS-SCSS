@@ -22,3 +22,21 @@ body
 h2
   @include special
   @include green
+
+.esp-menor
+  @include espacamento(10px, 10px)
+  border: 1px solid red
+
+.esp-media
+  @include espacamento(15px, 15px)
+  border: 1px solid green
+
+.esp-maior
+  @include espacamento(20px, 20px)
+  border: 1px solid blue
+
+.esp-maior-ainda
+  $pad: 25px
+  $mar: 25px
+  @include espacamento($pad, $mar)
+  border: 1px solid gold

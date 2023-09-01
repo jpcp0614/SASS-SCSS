@@ -38,4 +38,28 @@ h2:hover {
   transition: 0.4s;
 }
 
+.esp-menor {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid red;
+}
+
+.esp-media {
+  padding: 15px;
+  margin: 15px;
+  border: 1px solid green;
+}
+
+.esp-maior {
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid blue;
+}
+
+.esp-maior-ainda {
+  padding: 25px;
+  margin: 25px;
+  border: 1px solid gold;
+}
+
 /*# sourceMappingURL=styles.css.map */
