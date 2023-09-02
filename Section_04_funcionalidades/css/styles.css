@@ -96,6 +96,7 @@ h2:hover {
 .fonte-grande {
   font-size: 25px;
   color: red;
+  border: 3px dotted blue;
 }
 
 .teste-1 {
