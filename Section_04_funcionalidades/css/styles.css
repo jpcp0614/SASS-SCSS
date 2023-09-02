@@ -130,4 +130,19 @@ h2:hover {
   line-height: 96px;
 }
 
+.p-1 {
+  color: darkblue;
+  background: #aeaeae;
+}
+
+.p-2 {
+  color: orange;
+  background: #aeaeae;
+}
+
+.p-3 {
+  color: green;
+  background: #aeaeae;
+}
+
 /*# sourceMappingURL=styles.css.map */

@@ -76,3 +76,13 @@ $fonts: 40px, 60px, 80px
   .title-#{$font}
     font-size: $font
     line-height: $font * 1.2
+
+@for $i from 1 through 3
+  .p-#{$i}
+    @if $i == 1
+      color: darkblue
+    @else if $i == 2
+      color: orange
+    @else 
+      color: green
+    background: #aeaeae
