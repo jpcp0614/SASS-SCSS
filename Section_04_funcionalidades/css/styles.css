@@ -98,4 +98,19 @@ h2:hover {
   color: red;
 }
 
+.teste-1 {
+  width: 100px;
+  background: red;
+}
+
+.teste-2 {
+  width: 500px;
+  background: green;
+}
+
+.teste-3 {
+  width: 40px;
+  background: blue;
+}
+
 /*# sourceMappingURL=styles.css.map */
