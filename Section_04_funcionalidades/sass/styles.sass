@@ -69,3 +69,10 @@ $medida: 4
   width: custom-width($division: 5)
   background: calculation(5, 5)
   padding: 20px
+
+$fonts: 40px, 60px, 80px
+
+@each $font in $fonts
+  .title-#{$font}
+    font-size: $font
+    line-height: $font * 1.2

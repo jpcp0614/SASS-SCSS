@@ -115,4 +115,19 @@ h2:hover {
   padding: 20px;
 }
 
+.title-40px {
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.title-60px {
+  font-size: 60px;
+  line-height: 72px;
+}
+
+.title-80px {
+  font-size: 80px;
+  line-height: 96px;
+}
+
 /*# sourceMappingURL=styles.css.map */
