@@ -2,6 +2,7 @@
 @use 'sass:list'
 @use 'sass:map'
 @use 'sass:math'
+@use 'sass:meta'
 
 $color-adjust: color.adjust(#6B717F, $red: 25, $blue: 100)
 
@@ -80,3 +81,13 @@ $z: 3.5
 $a: 1, 2, 3, 4, 5
 @debug math.max($a...)
 @debug math.min($a...)
+
+@mixin teste
+  margin: 0
+  padding: 0
+
+@debug meta.global-variable-exists('a')
+@debug meta.inspect($a)
+@debug meta.mixin-exists('teste')
+@debug meta.type-of(2)
+@debug meta.type-of($a)
