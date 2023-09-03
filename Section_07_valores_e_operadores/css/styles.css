@@ -23,4 +23,20 @@ p-30 {
   font-size: "30px";
 }
 
+h3 {
+  font-weight: 900;
+}
+
+p-regular {
+  font-weight: 400;
+}
+
+p-bold {
+  font-weight: 700;
+}
+
+p-black {
+  font-weight: 900;
+}
+
 /*# sourceMappingURL=styles.css.map */

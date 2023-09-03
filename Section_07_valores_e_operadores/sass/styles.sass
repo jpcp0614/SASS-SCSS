@@ -1,3 +1,5 @@
+@use 'sass:map'
+
 // Números
 $a: 10
 
@@ -30,12 +32,14 @@ h2
   color: hsl(34, 50%, 92%)
   display: $h
 
+// Cores
 @debug #F2EC44
 @debug darkblue
 @debug rgb(201, 50, 124)
 @debug rgba(123, 321, 144, 0.8)
 @debug hsl(34, 50%, 92%)
 
+// Lista
 $list: 10, 20, 30
 @debug $list
 
@@ -45,3 +49,13 @@ $list: 10, 20, 30
 @each $font in $list
   p-#{$font}
     font-size: $font + "px"
+
+// Map
+$font-weights: ("regular": 400, "bold": 700, "black": 900)
+
+h3
+  font-weight: map.get($font-weights, "black")
+
+@each $key, $value in $font-weights
+  p-#{$key}
+    font-weight: $value
