@@ -1,4 +1,5 @@
 @use 'sass:color'
+@use 'sass:list'
 
 $color-adjust: color.adjust(#6B717F, $red: 25, $blue: 100)
 
@@ -29,3 +30,21 @@ $color-scale3: color.scale($color-adjust, $lightness: 40%)
 
 .color-7
   color: lighten(#350217, 60%)
+
+$lista: 10px, 20px, 30px
+@debug $lista
+
+$lista: list.append($lista, 40px)
+@debug $lista
+
+$lista: list.length($lista)
+@debug $lista
+
+$lista-1: 60px, 70px, 80px, 90px, 100px
+$lista-2: 10px, 20px, 30px, 40px, 50px
+@debug list.index($lista-2, 10px)
+
+$lista-3: list.join($lista-2, $lista-1 )
+@debug $lista-3
+@debug list.length($lista-3)
+@debug list.nth($lista-3, -1)
