@@ -29,6 +29,12 @@ li {
   list-style: none;
 }
 
+button {
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.4s;
+}
+
 #navbar {
   border-bottom: 2px solid #FFF;
   margin-bottom: 15px;
@@ -48,6 +54,21 @@ li {
 }
 #navbar ul li a:hover {
   color: gold;
+}
+
+.btn {
+  background: orange;
+  border: 1px solid #ffa200;
+  border-radius: 10px;
+  color: #222;
+  display: block;
+  font-size: 0.8rem;
+  margin: 15px auto;
+  padding: 10px 15px;
+}
+.btn:hover {
+  background: transparent;
+  color: #FFF;
 }
 
 /*# sourceMappingURL=main.css.map */
