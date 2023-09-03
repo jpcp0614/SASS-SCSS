@@ -11,4 +11,16 @@ h2 {
   display: hidden;
 }
 
+p-10 {
+  font-size: "10px";
+}
+
+p-20 {
+  font-size: "20px";
+}
+
+p-30 {
+  font-size: "30px";
+}
+
 /*# sourceMappingURL=styles.css.map */
