@@ -1,4 +1,30 @@
-$a: 10
+// Números
+// $a: 10
 
-@debug $a
-@debug $a + 10rem
+// @debug $a
+// @debug $a + 10rem
+
+// Strings
+$str1: "Link"
+$str2: Link
+
+@debug $str1 == $str2
+@debug $str1 + $str2
+
+$nome-da-fonte: "Open"
+$var1: "Sans"
+$var2: "Teste"
+
+@debug $nome-da-fonte + " " + $var1
+@debug $nome-da-fonte + " " + $var2
+
+p
+  font-family: $nome-da-fonte + " " + $var1
+
+h1
+  font-family: "#{$nome-da-fonte} #{$var2}"
+
+$h: hidden
+
+h2
+  display: $h
