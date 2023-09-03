@@ -59,3 +59,9 @@ h3
 @each $key, $value in $font-weights
   p-#{$key}
     font-weight: $value
+
+// Boolean
+@debug 10 > 2
+@if 10 < 2
+  p
+    color: red
